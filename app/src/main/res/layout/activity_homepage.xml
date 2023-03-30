@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FAFAFA"
+    android:textAlignment="viewStart"
+    tools:context=".Homepage">
+
+    <Button
+        android:id="@+id/searching"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Searching"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="384dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:text="Learn DSA at your own pace 👍"
+        android:textAlignment="center"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/array"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Arrays"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/hashmap"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Hashmaps"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/array" />
+
+    <Button
+        android:id="@+id/llbtn"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Linked Lists"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hashmap" />
+
+    <Button
+        android:id="@+id/stack"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Stacks"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llbtn" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Queues"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stack" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Trees"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Graphs"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="373dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Dynamic Programming"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/sorting"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Sorting"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searching" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="371dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#801E77D5"
+        android:text="Recursion"
+        android:textAlignment="viewStart"
+        android:textColor="?android:textColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sorting" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
